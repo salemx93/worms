@@ -1,0 +1,236 @@
+[Mission]
+	MissionNumber=3					     
+	WinningCondition=0
+	WinningWeapon=0
+;Kill a specific worm
+
+[Description]
+	Name=30
+	Difficulty=3
+					   
+
+[Options]
+	FallDamage=15                         
+	DisplayRoundTime=1                      
+	EnableActionReplay=1		               
+	LandRetreatTime=2                  
+	RopeRetreatTime=2                  
+	RoundTime=0                        
+	TurnTime=40
+	MineFuse=4                          
+	ObjectType=0                  
+	WeaponCrateDrops=0	              
+	HealthCrateDrops=0     	          
+	UtilityCrateDrops=0                
+	HealthCrateEnergy=0                
+	EnableSecretWeapons=0		      
+	SuddenDeathWaterRise=0
+	SuddenDeathWormDamage=0    	     
+	SuddenDeathType=2
+	PauseBetweenTurns=0
+	GirderRadius=200  
+	WormSelect=0                   
+	JetPackTimeLimit=90
+
+[Enviroment]
+	LandFile=data\land.dat						 
+	Wind=25                           
+	Friction=90                         
+	IndestructableBorder=0
+	IndestructableLandscape=0          
+	LogicRandomSeed=54346                  
+	AlliedGroupToGoFirst=0			  
+	Sound=1
+
+[Teams]
+	TeamsInMission=2					  
+
+[HumanTeam]
+	NumberOfWorms=1					  
+	Ammo_Parachute=1
+	Ammo_JetPack=2	
+	Worm1_Energy=10					   
+	Worm1_DeseasePoints=0			   
+	Worm1_ArtileryMode=0				    
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=264	
+	Worm1_YPosition=166
+	Ammo_JetPack=20
+
+[CPUTeam1]
+	TeamNameNumber=4					        
+	TeamSkill=60						    
+	NumberOfWorms=1					  
+	SoundBank=0						  
+	Flag=1							  
+	GraveStone=1						  
+	AlliedGroup=1					  
+	Ammo_AirStrike=1
+	Ammo_Bazooka=5
+	Ammo_SheepStrike=1
+	Delay_Bazooka=2
+	Delay_AirStrike=2	                   
+	Delay_SheepStrike=2	                   
+
+	Worm1_Energy=0					   
+	Worm1_DeseasePoints=0			   
+	Worm1_ArtileryMode=0				    
+	Worm1_NameNumber=1				          
+	Worm1_FixedWeapon=0				         
+	Worm1_ActionRadius=500				         
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=912
+	Worm1_YPosition=558
+
+	
+[Events]
+	TotalNumberOfEvents=17			     
+
+[Event0010]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=304
+	PlaceWeapon_YPosition=166
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_Contents=38
+
+[Event0020]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=88
+	PlaceWeapon_YPosition=586
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_Contents=64
+
+[Event0030]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=1868
+	PlaceWeapon_YPosition=504
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_Contents=20
+
+
+[Event0040]
+	TypeOfEvent=1			  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=1628
+	PlaceWeapon_YPosition=502
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_Contents=2
+
+[Event0050]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=460
+	PlaceWeapon_YPosition=296
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_Contents=12
+
+[Event0060]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=594
+	PlaceWeapon_YPosition=542
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_Contents=45
+
+[Event0070]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=790
+	PlaceWeapon_YPosition=332
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=19
+
+[Event0080]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=884
+	PlaceWeapon_YPosition=334
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=33
+
+[Event0090]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=976
+	PlaceWeapon_YPosition=342
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=3
+
+[Event0100]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=1286
+	PlaceWeapon_YPosition=188
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=37
+
+
+[Event0110]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=1310
+	PlaceWeapon_YPosition=372
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=11
+
+
+[Event0120]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=1366
+	PlaceWeapon_YPosition=388
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=2
+
+
+[Event0130]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=1676
+	PlaceWeapon_YPosition=548
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=36
+
+
+[Event0140]
+	TypeOfEvent=1					  
+	Turn=0
+	Retries=0	
+
+	PlaceWeapon_XPosition=1780
+	PlaceWeapon_YPosition=368
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_contents=14
+
+
+[Event0280]
+	EventEnd=1

@@ -1,0 +1,237 @@
+[Mission]
+	MissionNumber=28					     
+	WinningCondition=0
+	WinningWeapon=0
+;Kill everything
+ 
+[Description]
+	Name=21
+	Difficulty=4
+					   
+
+[Options]
+	FallDamage=25                         
+	DisplayRoundTime=1                      
+	EnableActionReplay=1		               
+	LandRetreatTime=5                  
+	RopeRetreatTime=5                  
+	RoundTime=5                        
+	TurnTime=30                         
+	MineFuse=0                          
+	ObjectType=0                  
+	WeaponCrateDrops=0	              
+	HealthCrateDrops=0     	          
+	UtilityCrateDrops=0                
+	HealthCrateEnergy=0                
+	EnableSecretWeapons=0		      
+	SuddenDeathWaterRise=45     	     
+	SuddenDeathWormDamage=0    	     
+	SuddenDeathType=3
+	PauseBetweenTurns=0		         
+	GirderRadius=0  
+	WormSelect=0                   
+	JetPackTimeLimit=0
+
+[Enviroment]
+	LandFile=data\land.dat						 
+	Wind=100                            
+	Friction=50                         
+	IndestructableBorder=0             
+	IndestructableLandscape=0          
+	LogicRandomSeed=667755                  
+	AlliedGroupToGoFirst=0			  
+	Sound=1
+
+
+[Teams]
+	TeamsInMission=2					  
+
+[HumanTeam]
+	NumberOfWorms=1					  
+	Ammo_SuperSheep=20                     
+	Ammo_Batrope=6                                                 
+	Ammo_Freeze=4
+	Ammo_Blowtorch=5                         
+	
+
+	Worm1_Energy=55				   
+	Worm1_DeseasePoints=0			   
+	Worm1_ArtileryMode=0				    
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=878
+	Worm1_YPosition=25
+
+	
+[CPUTeam1]
+	TeamNameNumber=10					        
+	TeamSkill=100						    
+	NumberOfWorms=4					  
+	SoundBank=1						  
+	Flag=1							  
+	GraveStone=1						  
+	AlliedGroup=1					  
+	                                  
+	Ammo_ClusterBomb=-1                    
+	Ammo_Airstrike=2
+
+	Worm1_Energy=0			   
+	Worm1_DeseasePoints=0			   
+	Worm1_ArtileryMode=0				    
+	Worm1_NameNumber=11			          
+	Worm1_FixedWeapon=0				         
+	Worm1_ActionRadius=0				         
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=276
+	Worm1_YPosition=255
+
+	Worm2_Energy=0					   
+	Worm2_DeseasePoints=0			   
+	Worm2_ArtileryMode=0				    
+	Worm2_NameNumber=11				          
+	Worm2_FixedWeapon=0				         
+	Worm2_ActionRadius=0				         
+	Worm2_PlaceWorm=1				     
+	Worm2_XPosition=702
+	Worm2_YPosition=335
+
+	Worm3_Energy=0					   
+	Worm3_DeseasePoints=0			   
+	Worm3_ArtileryMode=0				    
+	Worm3_NameNumber=11				          
+	Worm3_FixedWeapon=0				         
+	Worm3_ActionRadius=0				         
+	Worm3_PlaceWorm=1				     
+	Worm3_XPosition=1266
+	Worm3_YPosition=316
+
+	Worm4_Energy=0					   
+	Worm4_DeseasePoints=0			   
+	Worm4_ArtileryMode=0				    
+	Worm4_NameNumber=11				          
+	Worm4_FixedWeapon=0				         
+	Worm4_ActionRadius=0				         
+	Worm4_PlaceWorm=1				     
+	Worm4_XPosition=1596
+	Worm4_YPosition=105
+
+
+
+[Event0010]
+	TypeOfEvent=13					  
+	Turn=0
+	Retries=0							  
+
+	PlaceMine_XPosition=100
+	PlaceMine_YPosition=300
+	PlaceMine_OnGround=1
+
+
+
+[Event0020]
+	TypeOfEvent=13					  
+	Turn=0
+	Retries=0							  
+
+	PlaceMine_XPosition=748
+	PlaceMine_YPosition=315
+	PlaceMine_OnGround=1
+
+[Event0030]
+	TypeOfEvent=13					  
+	Turn=0
+	Retries=0							  
+
+	PlaceMine_XPosition=736
+	PlaceMine_YPosition=145
+	PlaceMine_OnGround=1
+
+[Event0040]
+	TypeOfEvent=13					  
+	Turn=0
+	Retries=0							  
+
+	PlaceMine_XPosition=1176
+	PlaceMine_YPosition=410
+	PlaceMine_OnGround=1
+
+[Event0050]
+	TypeOfEvent=13					  
+	Turn=0
+	Retries=0							  
+
+	PlaceMine_XPosition=1732
+	PlaceMine_YPosition=230
+	PlaceMine_OnGround=1
+
+[Event0060]
+	TypeOfEvent=14					  
+	Turn=0
+	Retries=0							  
+
+	PlaceDrum_XPosition=527
+	PlaceDrum_YPosition=305
+	PlaceDrum_OnGround=1
+
+[Event0070]
+	TypeOfEvent=14					  
+	Turn=0
+	Retries=0							  
+
+	PlaceDrum_XPosition=1310
+	PlaceDrum_YPosition=180
+	PlaceDrum_OnGround=1
+
+[Event0075]
+	TypeOfEvent=10
+	Turn=3
+	Retries=1
+	Text_String_Index=31
+
+
+[Event0080]
+	TypeOfEvent=2
+	Turn=3
+	Retries=1
+
+	PlaceHealth_XPosition=776
+	PlaceHealth_YPosition=32
+	PlaceHealth_OnGround=1
+	
+[Event0085]
+	TypeOfEvent=10
+	Turn=4
+	Retries=1
+	Text_String_Index=26
+
+
+[Event0090]
+	TypeOfEvent=2
+	Turn=4
+	Retries=1
+
+	PlaceHealth_XPosition=1364
+	PlaceHealth_YPosition=60
+	PlaceHealth_OnGround=1
+
+[Event0095]
+	TypeOfEvent=10
+	Turn=5
+	Retries=4
+	Text_String_Index=19
+
+
+[Event0100]
+	TypeOfEvent=2
+	Turn=5
+	Retries=4
+
+	PlaceHealth_XPosition=470
+	PlaceHealth_YPosition=284
+	PlaceHealth_OnGround=1
+	PlaceHealth_Health=25
+
+[Event0110]
+	EventEnd=1
+
+[Sequence0001]
+	EventEnd=1

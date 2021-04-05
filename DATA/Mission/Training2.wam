@@ -1,0 +1,141 @@
+[Mission]
+	MissionNumber=2					     
+	WinningCondition=3
+;kill everything
+
+[Description]
+	Name=2
+	Difficulty=1
+					   
+[Options]
+	DisplayRoundTime=0
+	EnableActionReplay=0		               
+	LandRetreatTime=5                 
+	RoundTime=-60
+	FallDamage=50
+	TurnTime=60 
+	SuddenDeathType=0
+	WeaponsDontEndTurn=1
+	PauseTimerWhileFiring=0
+
+[Enviroment]
+	LandFile=data\land.dat						 
+	Wind=100                            
+	Friction=96
+	LogicRandomSeed=3482743
+      IndestructableBorder=0
+	IndestructableLandscape=0
+	AlliedGroupToGoFirst=0
+	Sound=4
+
+[Teams]
+	TeamsInMission=1
+
+[HumanTeam]
+	NumberOfWorms=1
+	Ammo_Shotgun=-1
+	Ammo_JetPack=20
+	Ammo_SuperSheep=20
+	Worm1_Energy=1
+	Worm1_DeseasePoints=0			   
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=968
+	Worm1_YPosition=340
+
+
+
+
+
+
+[Event0060]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=1276
+	PlaceTarget_YPosition=230
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+	PlaceTarget_OnGround=0
+
+[Event0280]
+	EventEnd=1
+
+[Sequence0010]
+
+	TypeOfEvent=9
+
+[Sequence0020]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=630
+	PlaceTarget_YPosition=480
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+	PlaceTarget_OnGround=0
+
+[Sequence0021]
+
+	TypeOfEvent=9
+
+
+[Sequence0030]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=1534
+	PlaceTarget_YPosition=390
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+	PlaceTarget_OnGround=0
+
+[Sequence0031]
+
+	TypeOfEvent=9
+
+
+[Sequence0040]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=646
+	PlaceTarget_YPosition=242
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+	PlaceTarget_OnGround=0
+
+[Sequence0041]
+
+	TypeOfEvent=9
+
+
+[Sequence0050]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=408
+	PlaceTarget_YPosition=390
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+	PlaceTarget_OnGround=0
+
+[Sequence0051]
+
+	TypeOfEvent=9
+
+
+[Sequence0060]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=1296
+	PlaceTarget_YPosition=488
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+	PlaceTarget_OnGround=0
+
+[Sequence0061]
+
+	TypeOfEvent=9
+
+[Sequence0070]
+
+	TypeOfEvent=16
+
+[Sequence0080]
+
+	EventEnd=1

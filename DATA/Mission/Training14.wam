@@ -1,0 +1,530 @@
+[Mission]
+	MissionNumber=14					     
+	WinningCondition=3
+	WinningWeapon=0
+
+;Destroy the targets with your grenades matey!
+
+[Description]
+	Name=14
+	Difficulty=0
+					   
+
+[Options]
+	FallDamage=20                         
+	DisplayRoundTime=0                      
+	EnableActionReplay=1		               
+	LandRetreatTime=2                  
+	RopeRetreatTime=2                  
+	RoundTime=1                        
+	TurnTime=5000                      
+	MineFuse=4                          
+	ObjectType=0                  
+	WeaponCrateDrops=0	              
+	HealthCrateDrops=0     	          
+	UtilityCrateDrops=0                
+	HealthCrateEnergy=0                
+	EnableSecretWeapons=0		      
+	SuddenDeathWaterRise=0     	     
+	SuddenDeathWormDamage=0    	     
+	SuddenDeathType=0
+	PauseBetweenTurns=0		         
+	GirderRadius=0  
+	WormSelect=0                   
+	JetPackTimeLimit=0
+	WeaponsDontEndTurn=1
+	LossOfControlDoesntEndTurn=1
+	TurnEndFinishesGame=1
+	Score=1
+	PauseTimerWhileFiring=0
+
+
+[Enviroment]
+	LandFile=data\land.dat						 
+	Wind=25                           
+	Friction=94                        
+	IndestructableBorder=0             
+	IndestructableLandscape=1          
+	LogicRandomSeed=54346                  
+	AlliedGroupToGoFirst=0
+	Sound=4
+
+[Teams]
+	TeamsInMission=1					  
+
+[HumanTeam]
+	NumberOfWorms=1					  
+	Ammo_Grenade=-1                                  
+	Ammo_JetPack=20
+	Ammo_SuperSheep=20
+	Worm1_Energy=30					   
+	Worm1_DeseasePoints=0			   
+	Worm1_ArtileryMode=1				    
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=1100
+	Worm1_YPosition=2
+
+[Event0010]
+	EventEnd=1
+
+
+
+[Sequence0001]
+	TypeOfEvent=9
+
+
+[Sequence0002]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=4  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980            
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+	
+[Sequence0003]
+	TypeOfEvent=9
+	Retries=0 
+  
+[Sequence0004]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=5  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980            
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0005]
+	TypeOfEvent=9
+	Retries=0 
+  
+[Sequence0006]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980           
+	PlaceTarget_YPosition=2                     
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+
+[Sequence0007]
+	TypeOfEvent=9
+	Retries=0 
+  
+[Sequence0008]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0009]
+	TypeOfEvent=9
+	Retries=0 
+  
+[Sequence0010]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                    
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0011]
+	TypeOfEvent=9
+	Retries=0 
+
+
+
+
+[Sequence0014]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980          
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0             
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0015]
+	TypeOfEvent=9
+	Retries=0 
+	
+
+[Sequence0016]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980        
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0017]
+	TypeOfEvent=9
+	Retries=0 
+
+[Sequence0018]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980          
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0             
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=5
+
+
+[Sequence0020]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1        
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980          
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=6
+
+[Sequence0021]
+	TypeOfEvent=9
+	Retries=0 
+  
+
+[Sequence0025]
+	TypeOfEvent=10					  
+	Turn=0
+	Retries=0
+
+	Text_String_Index=86
+
+[Sequence0030]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1        
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0031]
+	TypeOfEvent=9
+	Retries=0 
+
+
+[Sequence0040]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1        
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0041]
+	TypeOfEvent=9
+	Retries=0 
+
+
+[Sequence0050]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1        
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0051]
+	TypeOfEvent=9
+	Retries=0 
+
+
+[Sequence0060]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1        
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0061]
+	TypeOfEvent=9
+	Retries=0 
+
+[Sequence0070]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1        
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980           
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0071]
+	TypeOfEvent=9
+	Retries=0
+
+
+[Sequence0075]
+	TypeOfEvent=10					  
+	Turn=0
+	Retries=0
+
+	Text_String_Index=108
+
+[Sequence0080]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1        
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980       
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0           
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=10
+
+[Sequence0081]
+	TypeOfEvent=9
+	Retries=0
+
+
+[Sequence0085]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980           
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0086]
+	TypeOfEvent=9
+	Retries=0 
+
+
+[Sequence0089]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=3  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980          
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0090]
+	TypeOfEvent=9
+	Retries=0 
+
+
+
+
+[Sequence0095]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=2  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980          
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0096]
+	TypeOfEvent=9
+	Retries=0 
+
+
+
+
+[Sequence0099]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=2  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980        
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0100]
+	TypeOfEvent=9
+	Retries=0 
+
+
+
+
+[Sequence0105]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=2  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980            
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0106]
+	TypeOfEvent=9
+	Retries=0 
+
+
+
+[Sequence0110]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=2  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0115]
+	TypeOfEvent=9
+	Retries=0 
+
+[Sequence0120]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=1  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980         
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+
+[Sequence0125]
+	TypeOfEvent=3
+	Turn=0
+	Retries=0
+	
+	PlaceTarget_Bonus_Points=1         
+    	PlaceTarget_Bonus_TurnExtension=1  
+    	PlaceTarget_Bonus_RoundExtention=0 
+	PlaceTarget_XPosition=980          
+	PlaceTarget_YPosition=2                      
+    	PlaceTarget_OnGround=0            
+	PlaceTarget_Marked=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0130]
+	TypeOfEvent=9
+	Retries=0 
+
+
+[Sequence0140]
+	TypeOfEvent=15
+
+
+
+[Sequence0141]
+	EventEnd=1
+
+			  

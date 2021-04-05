@@ -1,0 +1,86 @@
+[Mission]
+	MissionNumber=7					     
+	WinningCondition=3
+;kill everything
+
+[Description]
+	Name=7
+	Difficulty=1
+					   
+[Options]
+	DisplayRoundTime=0
+	EnableActionReplay=0		               
+	LandRetreatTime=5                 
+	RoundTime=-60
+	TurnTime=6000
+	SuddenDeathType=0
+	WeaponsDontEndTurn=0
+	PauseTimerWhileFiring=0
+
+
+[Enviroment]
+	LandFile=data\land.dat						 
+	Wind=100                            
+	Friction=96
+	LogicRandomSeed=3482743
+      IndestructableBorder=0
+	IndestructableLandscape=1
+	AlliedGroupToGoFirst=0
+	Sound=4
+
+[Teams]
+	TeamsInMission=1
+
+[HumanTeam]
+	NumberOfWorms=1
+	Ammo_BatRope=1
+	Ammo_JetPack=20
+	Worm1_Energy=1
+	Worm1_DeseasePoints=0			   
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=666
+	Worm1_YPosition=314
+	Ammo_SuperSheep=20
+;	Worm1_XPosition=1015
+;	Worm1_YPosition=516
+
+[Events]
+	TotalNumberOfEvents=1
+
+
+[Event0100]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	PlaceWeapon_XPosition=216
+	PlaceWeapon_YPosition=376
+	PlaceWeapon_OnGround=1
+	PlaceWeapon_Contents=20
+	PlaceWeapon_Vital=1
+
+
+
+[Event0105]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=1015
+	PlaceTarget_YPosition=500
+	PlaceTarget_Marked=1
+	PlaceTarget_OnGround=1
+
+
+[Event0280]
+	EventEnd=1
+
+[Sequence0005]
+
+	TypeOfEvent=9
+	
+ [Sequence0010]
+
+	TypeOfEvent=16
+
+[Sequence0020]
+
+	EventEnd=1
+

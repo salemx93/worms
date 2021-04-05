@@ -1,0 +1,115 @@
+[Mission]
+	MissionNumber=9
+	WinningCondition=3
+;kill everything
+
+[Description]
+	Name=9
+	Difficulty=1
+					   
+[Options]
+	DisplayRoundTime=0
+	EnableActionReplay=0		               
+	LandRetreatTime=5                 
+	RoundTime=-99
+	TurnTime=9900
+	SuddenDeathType=0
+	SuddenDeathWaterRise=32
+	WeaponsDontEndTurn=1
+	PauseTimerWhileFiring=0
+
+[Enviroment]
+	LandFile=data\land.dat						 
+	Wind=0                            
+	Friction=96
+	LogicRandomSeed=3482743
+      IndestructableBorder=0
+	IndestructableLandscape=1
+	AlliedGroupToGoFirst=0
+	Sound=4
+
+[Teams]
+	TeamsInMission=1
+
+[HumanTeam]
+	NumberOfWorms=1
+	Ammo_Grenade=-1
+	Ammo_JetPack=20
+	Worm1_Energy=1
+	Worm1_DeseasePoints=0			   
+	Worm1_ArtileryMode=1
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=60
+	Worm1_YPosition=624
+	Ammo_SuperSheep=20
+
+[Event0010]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=1050
+	PlaceTarget_YPosition=400
+	PlaceTarget_Marked=1
+	PlaceTarget_OnGround=1
+
+[Event0280]
+	EventEnd=1
+
+[Sequence0010]
+
+	TypeOfEvent=9
+
+[Sequence0020]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=777
+	PlaceTarget_YPosition=500
+	PlaceTarget_Marked=1
+	PlaceTarget_OnGround=1
+	PlaceTarget_FallSpeed=1
+
+[Sequence0030]
+
+	TypeOfEvent=9
+
+[Sequence0040]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=1355
+	PlaceTarget_YPosition=200
+	PlaceTarget_Marked=1
+	PlaceTarget_OnGround=1
+
+[Sequence0050]
+
+	TypeOfEvent=9
+
+[Sequence0055]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=1714
+	PlaceTarget_YPosition=450
+	PlaceTarget_Marked=1
+	PlaceTarget_OnGround=1
+
+[Sequence0060]
+
+	TypeOfEvent=9
+
+[Sequence0075]
+
+	TypeOfEvent=3
+	PlaceTarget_XPosition=200
+	PlaceTarget_YPosition=100
+	PlaceTarget_Marked=1
+	PlaceTarget_OnGround=1
+
+[Sequence0077]
+
+	TypeOfEvent=9
+
+[Sequence0079]
+
+	TypeOfEvent=16
+
+[Sequence0090]
+	EventEnd=1

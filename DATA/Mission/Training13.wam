@@ -1,0 +1,737 @@
+[Mission]
+	MissionNumber=13					     
+	WinningCondition=3
+	WinningWeapon=0
+
+;Collect the crates as they appear
+
+[Description]
+	Name=13
+	Difficulty=0
+					   
+
+[Options]
+	FallDamage=3                         
+	DisplayRoundTime=0                      
+	EnableActionReplay=1		               
+	LandRetreatTime=2                  
+	RopeRetreatTime=2                  
+	RoundTime=1                        
+	TurnTime=6000                        
+	MineFuse=0                          
+	ObjectType=0                  
+	WeaponCrateDrops=0	              
+	HealthCrateDrops=0     	          
+	UtilityCrateDrops=0                
+	HealthCrateEnergy=0                
+	EnableSecretWeapons=0		      
+	SuddenDeathWaterRise=0     	     
+	SuddenDeathWormDamage=0    	     
+	SuddenDeathType=0
+	PauseBetweenTurns=0		         
+	GirderRadius=0  
+	WormSelect=0                   
+	JetPackTimeLimit=0
+	WeaponsDontEndTurn=1
+	LossOfControlDoesntEndTurn=1
+	TurnEndFinishesGame=1
+	Score=1
+	PauseTimerWhileFiring=0
+
+[Enviroment]
+	LandFile=data\land.dat						 
+	Wind=0                           
+	Friction=90                         
+	IndestructableBorder=1             
+	IndestructableLandscape=1          
+	LogicRandomSeed=54346                  
+	AlliedGroupToGoFirst=0
+	Sound=4
+
+[Teams]
+	TeamsInMission=1					  
+
+[HumanTeam]
+	NumberOfWorms=1					  
+	Ammo_Batrope=-1                                  
+	Ammo_JetPack=20
+	Ammo_SuperSheep=-1
+	Ammo_FirePunch=-1
+Ammo_BlowTorch=-1
+Ammo_Parachute=-1
+Ammo_Jetpack=-1
+Ammo_Armageddon=-1
+Ammo_MBBomb=-1
+Ammo_SheepStrike=-1
+Ammo_AirStrike=-1
+Ammo_MagicBullet=-1
+Ammo_BananaBomb=-1
+Ammo_Freeze=-1
+Ammo_Earthquake=-1
+Ammo_BattleAxe=-1
+Ammo_SallyArmy=-1
+Ammo_SuperBananaBomb=-1
+Ammo_CarpetBomb=-1
+Ammo_DoubleDamage=-1
+Ammo_DoubleTurnTime=-1
+Ammo_FlameThrower=-1
+Ammo_Donkey=-1
+Ammo_CreateSpy=-1
+Ammo_Grenade=-1
+Ammo_lowGravity=-1
+Ammo_Bungee=-1
+Ammo_Girder=-1
+Ammo_Dragonball=-1
+Ammo_Bazooka=-1
+Ammo_Handgun=-1
+Ammo_BaseballBat=-1
+Ammo_Shotgun=-1
+Ammo_ClusterBomb=-1
+Ammo_Batrope=-1
+Ammo_Prod=-1
+Ammo_FastWalk=-1
+Ammo_LaserSight=-1
+Ammo_PneumaticDrill=-1
+Ammo_Longbow=-1
+Ammo_Mine=-1
+Ammo_SelectWorm=-1
+Ammo_BridgeKit=-1
+Ammo_GirderStarterPack=-1
+Ammo_HolyHandGrenade=-1
+Ammo_HomingMissile=-1
+Ammo_HomingPigeon=-1
+Ammo_VariusJumps=-1
+Ammo_Kamikaze=-1
+Ammo_MadCows=-1
+Ammo_MineStrike=-1
+Ammo_MingVase=-1
+Ammo_Minigun=-1
+Ammo_MoleBomb=-1
+Ammo_MoleSquadron=-1
+Ammo_Mortar=-1
+Ammo_NapalmStrike=-1
+Ammo_NinjaRope=-1
+Ammo_OldWoman=-1
+Ammo_PetrolBomb=-1
+Ammo_Sheep=-1
+Ammo_SheepLauncher=-1
+Ammo_Skunk=-1
+Ammo_SuicideBomber=-1
+Ammo_Teleport=-1
+Ammo_Uzi=-1
+Ammo_Dynamite=-1
+Ammo_MadCow=-1
+Ammo_Axe=-1
+Ammo_SuperSheep=-1
+
+Worm1_Energy=15					   
+	Worm1_DeseasePoints=0			   
+	Worm1_ArtileryMode=0				    
+	Worm1_PlaceWorm=1				     
+	Worm1_XPosition=400
+	Worm1_YPosition=188
+
+[Event0010]
+	EventEnd=1
+
+
+[Sequence0001]
+	TypeOfEvent=8
+
+
+[Sequence0002]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=5  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=206                      
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=32                     
+      
+	  
+[Sequence0004]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=5  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=176                       
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=33                   
+      
+	
+
+[Sequence0005]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0006]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=5  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=128                      
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=34            
+	PlaceWeapon_Marked=1         
+[Sequence0007]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0008]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=5  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400          
+	PlaceWeapon_YPosition=174           
+	PlaceWeapon_Contents=35             
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Marked=1          
+[Sequence0009]
+	TypeOfEvent=8
+	Retries=0
+ 
+[Sequence0010]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=82                      
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=36                      
+      PlaceWeapon_OnGround=1   
+[Sequence0012]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400          
+	PlaceWeapon_YPosition=262                      
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=37             
+	PlaceWeapon_Marked=1   
+
+[Sequence0013]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0014]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=254                      
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=38             
+	PlaceWeapon_Marked=1
+	
+	
+
+[Sequence0015]
+	TypeOfEvent=10
+	Text_String_Index=65
+
+
+[Sequence0017]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0019]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400          
+	PlaceWeapon_YPosition=262                      
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=39            
+	PlaceWeapon_Marked=1
+
+[Sequence0020]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0022]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4 
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400          
+	PlaceWeapon_YPosition=262                     
+    	PlaceWeapon_OnGround=5
+	PlaceWeapon_Contents=40            
+	PlaceWeapon_Marked=1
+
+[Sequence0025]
+	TypeOfEvent=10
+	Text_String_Index=108
+
+
+[Sequence0028]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0030]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=136                      
+    	PlaceWeapon_OnGround=5
+	PlaceWeapon_Contents=41           
+	PlaceWeapon_Marked=1
+	
+
+[Sequence0033]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0035]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=142                      
+    	PlaceWeapon_OnGround=5
+	PlaceWeapon_Contents=42            
+	PlaceWeapon_Marked=1
+	        
+       
+
+[Sequence0040]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0045]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=158                      
+    	PlaceWeapon_OnGround=5
+	PlaceWeapon_Contents=43            
+	PlaceWeapon_Marked=1
+	        
+       
+
+
+
+
+[Sequence0054]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0055]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400          
+	PlaceWeapon_YPosition=122                      
+    	PlaceWeapon_OnGround=5	PlaceWeapon_Contents=36             
+	PlaceWeapon_Marked=1
+	PlaceWeapon_Contents=44        
+        
+[Sequence0058]
+	TypeOfEvent=10
+	Text_String_Index=107
+
+
+[Sequence0060]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0065]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=312                     
+    	PlaceWeapon_OnGround=5
+	PlaceWeapon_Contents=45            
+	PlaceWeapon_Marked=1
+
+
+
+[Sequence0070]
+	TypeOfEvent=10
+	Text_String_Index=86
+
+[Sequence0075]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0080]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=84                      
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=46          
+	PlaceWeapon_Marked=1
+
+[Sequence0085]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0087]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=400                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=47             
+	PlaceWeapon_Marked=1
+
+[Sequence0090]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0091]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=472                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=48            
+	PlaceWeapon_Marked=1
+
+[Sequence0095]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0097]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=154                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=49            
+	PlaceWeapon_Marked=1
+
+
+[Sequence0099]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0101]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=314                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=50           
+	PlaceWeapon_Marked=1
+
+
+[Sequence0103]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0105]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=282                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=51            
+	PlaceWeapon_Marked=1
+
+
+[Sequence0107]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0109]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=3  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=300                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=52            
+	PlaceWeapon_Marked=1
+
+
+[Sequence0111]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0113]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=3  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=374                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=53           
+	PlaceWeapon_Marked=1
+
+
+[Sequence0114]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0116]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=3  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400          
+	PlaceWeapon_YPosition=220                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=54            
+	PlaceWeapon_Marked=1
+
+
+[Sequence0118]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0120]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=2  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=436                     
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=55             
+	PlaceWeapon_Marked=1
+
+[Sequence0122]
+	TypeOfEvent=8
+	Retries=0 
+  
+[Sequence0124]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=3  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=180                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=56             
+	PlaceWeapon_Marked=1
+
+[Sequence0125]
+	TypeOfEvent=8
+	Retries=0 
+
+
+[Sequence0127]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1       
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=212                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=57            
+	PlaceWeapon_Marked=1
+
+
+[Sequence0128]
+	TypeOfEvent=10
+	Text_String_Index=2
+
+[Sequence0129]
+	TypeOfEvent=8
+	Retries=0 
+
+[Sequence0130]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=306                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=58           
+	PlaceWeapon_Marked=1
+
+[Sequence0129]
+	TypeOfEvent=8
+	Retries=0 
+
+[Sequence0130]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=3  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400          
+	PlaceWeapon_YPosition=70                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=59             
+	PlaceWeapon_Marked=1
+
+
+[Sequence0135]
+	TypeOfEvent=8
+	Retries=0 
+
+[Sequence0136]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=3  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=276                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=60            
+	PlaceWeapon_Marked=1
+
+
+[Sequence0137]
+	TypeOfEvent=8
+	Retries=0 
+
+[Sequence0138]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=2  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400            
+	PlaceWeapon_YPosition=252                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=61             
+	PlaceWeapon_Marked=1
+
+[Sequence0140]
+	TypeOfEvent=8
+	Retries=0 
+
+[Sequence0141]
+	TypeOfEvent=1
+	Turn=0
+	Retries=0
+	
+	PlaceWeapon_Bonus_Points=1         
+    	PlaceWeapon_Bonus_TurnExtension=4  
+    	PlaceWeapon_Bonus_RoundExtention=0 
+	PlaceWeapon_XPosition=400           
+	PlaceWeapon_YPosition=176                    
+    	PlaceWeapon_OnGround=0
+	PlaceWeapon_Contents=62             
+	PlaceWeapon_Marked=1
+
+[Sequence0142]
+	TypeOfEvent=15
+
+[Sequence0145]
+	EventEnd=1
+
+			  

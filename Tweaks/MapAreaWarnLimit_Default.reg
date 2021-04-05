@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Team17SoftwareLTD\WormsArmageddon\Options]
+"MapAreaWarnLimit"=dword:007dc6c0
+
