@@ -1,0 +1,31 @@
+
+{
+	"version" : 1,
+	"gameId" : "1462173886",
+	"rootGameId" : "1462173886",
+	"standalone" : true,
+	"dependencyGameId" : "",
+	"language"         : "english",
+	"name"             : "Worms Armageddon",
+	"playTasks"        : [
+		{
+			"isPrimary" : true,
+			"type"      : "FileTask",
+			"path"      : "WA.exe",
+			"workingDir" : ""
+		}
+	],
+	"supportTasks"     : [
+		{
+			"name" : "Support",
+			"type" : "URLTask",
+			"link" : "http://www.gog.com/en/support/worms_armageddon"
+		},
+		{
+			"name" : "Manual",
+			"type" : "FileTask",
+			"path" : "WA_Manual.pdf",
+			"workingDir" : ""
+		}
+	]
+}

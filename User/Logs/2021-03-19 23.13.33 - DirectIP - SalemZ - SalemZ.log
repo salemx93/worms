@@ -1,0 +1,21 @@
+[2021-03-19 23.13.33] ••• SalemZ is hosting a game on DirectIP named "SalemZ"
+[2021-03-19 23.13.33] ••• Incoming connection on slot 0
+[2021-03-19 23.13.33] ••• Player joined: sikor
+[2021-03-19 23.13.33] ••• Validated connection: 0, 1, sikor
+[2021-03-19 23.13.33] ••• Incoming connection on slot 1
+[2021-03-19 23.13.33] ••• Player joined: kitol
+[2021-03-19 23.13.33] ••• Validated connection: 1, 2, kitol
+[2021-03-19 23.13.35] ••• Connection closed: 1, 2
+[2021-03-19 23.13.35] ••• Player parted or was kicked: kitol
+[2021-03-19 23.13.39] ••• Incoming connection on slot 1
+[2021-03-19 23.13.39] ••• Player joined: kitol
+[2021-03-19 23.13.39] ••• Validated connection: 1, 2, kitol
+[2021-03-19 23.13.41] ••• Connection closed: 1, 2
+[2021-03-19 23.13.41] ••• Player parted or was kicked: kitol
+[2021-03-19 23.13.46] ••• Connection closed: 0, 1
+[2021-03-19 23.13.46] ••• Connection closed: 1, -1
+[2021-03-19 23.13.46] ••• Connection closed: 2, -1
+[2021-03-19 23.13.46] ••• Connection closed: 3, -1
+[2021-03-19 23.13.46] ••• Connection closed: 4, -1
+[2021-03-19 23.13.46] ••• Connection closed: 5, -1
+[2021-03-19 23.13.46] ••• Session ended

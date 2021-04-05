@@ -1,0 +1,26 @@
+[2021-02-23 20.34.36] ••• SalemZ is hosting a game on DirectIP named "SalemZ"
+[2021-02-23 20.34.36] ••• Incoming connection on slot 0
+[2021-02-23 20.34.37] ••• Player joined: 48518
+[2021-02-23 20.34.37] ••• Validated connection: 0, 1, 48518
+[2021-02-23 20.34.37] ••• Incoming connection on slot 1
+[2021-02-23 20.34.37] ••• Player joined: sikor
+[2021-02-23 20.34.37] ••• Validated connection: 1, 2, sikor
+[2021-02-23 20.34.38] ••• Incoming connection on slot 2
+[2021-02-23 20.34.38] ••• Player joined: Matt
+[2021-02-23 20.34.38] ••• Validated connection: 2, 3, Matt
+[2021-02-23 20.34.55] ••• Booting player: Matt
+[2021-02-23 20.34.55] ••• Connection closed: 2, 3
+[2021-02-23 20.34.55] ••• Player parted or was kicked: Matt
+[2021-02-23 20.35.00] ••• Booting player: 48518
+[2021-02-23 20.35.00] ••• Connection closed: 0, 1
+[2021-02-23 20.35.00] ••• Player parted or was kicked: 48518
+[2021-02-23 20.35.01] ••• Booting player: sikor
+[2021-02-23 20.35.01] ••• Connection closed: 1, 2
+[2021-02-23 20.35.01] ••• Player parted or was kicked: sikor
+[2021-02-23 20.35.02] ••• Connection closed: 0, -1
+[2021-02-23 20.35.02] ••• Connection closed: 1, -1
+[2021-02-23 20.35.02] ••• Connection closed: 2, -1
+[2021-02-23 20.35.02] ••• Connection closed: 3, -1
+[2021-02-23 20.35.02] ••• Connection closed: 4, -1
+[2021-02-23 20.35.02] ••• Connection closed: 5, -1
+[2021-02-23 20.35.02] ••• Session ended

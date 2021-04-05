@@ -1,0 +1,31 @@
+[2020-01-22 22.19.39] ••• SalemZ is hosting a game on DirectIP named "GameRanger"
+[2020-01-22 22.19.41] ••• Incoming connection on slot 0
+[2020-01-22 22.19.41] ••• Player joined: Dejvid
+[2020-01-22 22.19.41] ••• Validated connection: 0, 1, Dejvid
+[2020-01-22 22.19.41] ••• Incoming connection on slot 1
+[2020-01-22 22.19.41] ••• Player joined: DOM
+[2020-01-22 22.19.41] ••• Validated connection: 1, 2, DOM
+[2020-01-22 22.19.42] ••• Incoming connection on slot 2
+[2020-01-22 22.19.43] ••• Player joined: Varow
+[2020-01-22 22.19.43] ••• Validated connection: 2, 3, Varow
+[2020-01-22 22.19.47] ••• Connection closed: 1, 2
+[2020-01-22 22.19.47] ••• Player parted or was kicked: DOM
+[2020-01-22 22.19.53] ••• Incoming connection on slot 1
+[2020-01-22 22.19.53] ••• Player joined: DOM
+[2020-01-22 22.19.53] ••• Validated connection: 1, 2, DOM
+[2020-01-22 22.20.03] • Game will take advantage of the latest 3.7.2.1 features and bug fixes
+[2020-01-22 22.20.05] ••• Starting game, recorded as file "User\Games\2020-01-22 22.20.05 [Online] @SalemZ, Dejvid, DOM, Varow.WAgame"
+[2020-01-22 22.39.37] ••• Starting game, recorded as file "User\Games\2020-01-22 22.39.37 [Online Round 2] @SalemZ, Dejvid, DOM, Varow.WAgame"
+[2020-01-22 22.58.58] ••• Connection closed: 2, 3
+[2020-01-22 22.58.59] ••• Connection closed: 2, 3
+[2020-01-22 23.03.26] ••• Player parted or was kicked: Varow
+[2020-01-22 23.03.41] ••• Starting game, recorded as file "User\Games\2020-01-22 23.03.41 [Online Round 3] @SalemZ, Dejvid, DOM.WAgame"
+[2020-01-22 23.19.10] ••• Connection closed: 1, 2
+[2020-01-22 23.19.11] ••• Player parted or was kicked: DOM
+[2020-01-22 23.19.11] ••• Connection closed: 0, 1
+[2020-01-22 23.19.11] ••• Connection closed: 1, -1
+[2020-01-22 23.19.11] ••• Connection closed: 2, -1
+[2020-01-22 23.19.11] ••• Connection closed: 3, -1
+[2020-01-22 23.19.11] ••• Connection closed: 4, -1
+[2020-01-22 23.19.11] ••• Connection closed: 5, -1
+[2020-01-22 23.19.11] ••• Session ended
